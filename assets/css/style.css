@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "Santio Bold";
+  src: url("../fonts/SantioBold/fonts/Santio\ Bold.eot");
+  src: local("â˜º"),
+    url("../fonts/SantioBold/fonts/Santio\ Bold.woff") format("woff"),
+    url("../fonts/SantioBold/fonts/Santio\ Bold.ttf") format("truetype"),
+    url("../fonts/SantioBold/fonts/Santio\ Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/************************GENERAL********************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/************************HEADER**********************************/
+
+header {
+  background-image: url("../img/cleo-topper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header .wrapper {
+  padding-top: 1 vh;
+  justify-content: space-between;
+  color: white;
+}
+
+header .wrapper h1 {
+  margin: 20vh 0 0vh 0;
+  font-size: 5.5em;
+  padding-bottom: 10vh;
+  width: 28%;
+  font-family: "Santio Bold";
+}
+
+header .wrapper p {
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  position: relative;
+  border-bottom: 3px solid yellow;
+  display: inline-block;
+  margin: 2vh 0 0 60vw;
+  padding-bottom: 1vh;
+}
+
+header .wrapper p::before {
+  content: url("../img/heart.svg");
+  display: block;
+  width: 30px;
+  height: 30px;
+  right: 215px;
+  top: -1vh;
+  position: absolute;
+}
+
+/******************MAIN************************************************/
+
+main {
+  background-image: url(../img/cleo-topper.jpg);
+  background-size: contain;
+}
+
+.scroll {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  color: #e7bc0e;
+  font-size: 2em;
+  padding: 3vh 0 0 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 13%;
+}
+
+.fa-check {
+  color: #e7bc0e;
+  margin-top: 4vh;
+}
+
+.main_paragraph {
+  color: #6abfa2;
+  font-size: 3em;
+  font-family: "Santio Bold";
+  width: 75%;
+  margin: 73vh auto;
+  line-height: 1.5em;
+}
+
+.main_paragraph .mark {
+  color: white;
+  background-color: #29272a;
+  padding: 0 1% 0 1%;
+}
+
+.domestic_workers {
+  display: flex;
+  flex-direction: column;
+  font-family: "Santio Bold";
+  color: #e7bc0e;
+  font-size: 8em;
+}
+
+.domestic_workers img {
+  width: 10%;
+  margin: 24vh 0 6vh 0;
+}
+
+.domestic_workers_text {
+  font-size: 0.5em;
+}
+
+.domestic_workers_text span {
+  color: white;
+  background-color: #29272a;
+  padding: 0 1% 0 1%;
+}
+
+.domestic_pay {
+  display: flex;
+  flex-direction: column;
+  font-family: "Santio Bold";
+  color: #cb91b6;
+  font-size: 8em;
+}
+
+.domestic_pay img {
+  width: 10%;
+  margin: 53vh 0 6vh 0;
+}
+
+.domestic_pay_text {
+  font-size: 0.5em;
+}
+
+.domestic_pay_text span {
+  color: white;
+  background-color: #29272a;
+  padding: 0 1% 0 1%;
+}
+
+.domestic_health {
+  display: flex;
+  flex-direction: column;
+  font-family: "Santio Bold";
+  color: #6bc1a3;
+  font-size: 8em;
+}
+
+.domestic_health img {
+  width: 10%;
+  margin: 53vh 0 6vh 0;
+}
+
+.domestic_health_text {
+  font-size: 0.5em;
+  padding-bottom: 60vh;
+}
+
+.domestic_health_text span {
+  color: white;
+  background-color: #29272a;
+  padding: 0 1% 0 1%;
+}
+
+.domestic_workers_are {
+  font-size: 3em;
+  font-family: "Santio Bold";
+  color: #79b1d8;
+  width: 60%;
+  line-height: 1.2em;
+}
+
+.domestic_workers_are span {
+  color: white;
+  background-color: #29272a;
+  padding: 0 1% 0 1%;
+}
+
+/*****************************************************footer************************/
+
+.see_picture {
+  background-image: url("../img/see.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: -1vh;
+}
+
+.children {
+  width: 100%;
+}
+
+.you_can_help {
+  background-color: black;
+  color: white;
+}
+
+.you_can_help_par1 {
+  font-size: 7em;
+  width: 50%;
+  font-family: "Santio Bold";
+  margin-left: 10%;
+  padding-top: 10vh;
+}
+
+.you_can_help span {
+  color: #5fab90;
+}
+
+.donation {
+  font-size: 2em;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 1% 2% 1% 2%;
+  margin: 10vh 0 2vh 10%;
+  cursor: pointer;
+}
+
+.subtitle {
+  margin: 10vh 0 0 10%;
+  text-align: center;
+  padding-bottom: 4vh;
+}
