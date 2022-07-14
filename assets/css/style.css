@@ -32,6 +32,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-height: 100vh;
+  background-attachment: fixed;
 }
 
 header .wrapper {
@@ -73,7 +75,11 @@ header .wrapper p::before {
 
 main {
   background-image: url(../img/cleo-topper.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 .scroll {
@@ -195,6 +201,10 @@ main {
   padding: 0 1% 0 1%;
 }
 
+.domestic_workers_are2 {
+  margin-top: 0vh;
+}
+
 /*****************************************************footer************************/
 
 .see_picture {
@@ -223,16 +233,32 @@ main {
 
 .you_can_help span {
   color: #5fab90;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  padding-bottom: 0.5vh;
+}
+
+.you_can_help span:hover {
+  padding-bottom: 0.5vh;
+  border-bottom: 1px solid #5fab90;
 }
 
 .donation {
   font-size: 2em;
   background-color: transparent;
-  border: 1px solid white;
+
   color: white;
   padding: 1% 2% 1% 2%;
   margin: 10vh 0 2vh 10%;
   cursor: pointer;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border: 1px solid white;
+}
+
+.donation:hover {
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
 }
 
 .subtitle {
